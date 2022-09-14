@@ -1,1 +1,37 @@
+[
+    {
+        "Console": "Playstation 2",
+        "Vendas": "157 Milhões",
+        "Data de Lançamento": "04/03/2000",
+        "Jogo mais Vendido": "Grand Theft Auto: San Andreas"
+    },
 
+    {
+        "Console": "Nintendo DS",
+        "Vendas": "154 Milhões",
+        "Data de Lançamento": "21/11/2004",
+        "Jogo mais Vendido": "New Super Mario Bros"
+    },
+
+    {
+        "Console": "Game Boy",
+        "Vendas": "118 Milhões",
+        "Data de Lançamento": "21/04/1989",
+        "Jogo mais Vendido": "Tetris"
+    },
+
+    {
+        "Console": "Playstation 4",
+        "Vendas": "116 Milhões",
+        "Data de Lançamento": "15/11/2013",
+        "Jogo mais Vendido": "Grand Theft Auto V"
+    },
+
+    {
+        "Console": "Nintendo Switch",
+        "Vendas": "103 Milhões",
+        "Data de Lançamento": "03/03/2017",
+        "Jogo mais Vendido": "Mario Kart 8 Deluxe"
+    }
+
+]
