@@ -1,0 +1,9 @@
+({ Console: "Playstation 2", Vendas: "157 Milhões", DataDeLancamento: "04/03/2000", JogoMaisVendido:"GTA San-Andreas" })
+
+({ Console: "Nintendo DS", Vendas: "154 Milhões", DataDeLancamento: "21/11/2004", JogoMaisVendido:"New Super Mario Bros" })
+
+({ Console: "Game Boy", Vendas: "118 Milhões", DataDeLancamento: "21/04/1989", JogoMaisVendido:"Tetris" })
+
+({ Console: "Playstation 4", Vendas: "116 Milhões", DataDeLancamento: "15/11/2013", JogoMaisVendido:"GTA V" })
+
+({ Console: "Nintendo Switch", Vendas: "103 Milhões", DataDeLancamento: "03/03/2017", JogoMaisVendido:"Mario Kart 8 Deluxe" })
