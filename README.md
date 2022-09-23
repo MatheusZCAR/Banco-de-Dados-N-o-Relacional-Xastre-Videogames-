@@ -1,4 +1,13 @@
-# Banco-de-Dados-Nao-Relacional-Xastre-Videogames-
+# Banco-de-Dados-Nao-Relacional-Xastre-Videogames
 Trabalho de montagem de um Banco de Dados Não Relacional (Json, Docker e MongoDB)
-Temos que atraves do docker file, puxar nossa database do git, enviar para nosso container, e qualquer modificação devemos retornar para o git
-mongo-express local - docker run -d -p 8081:8081 -e ME_CONFIG_MONGODB_SERVER=host.docker.internal -e ME_CONFIG_MONGODB_PORT=49153 -e ME_CONFIG_MONGODB_ADMINUSERNAME=docker -e ME_CONFIG_MONGODB_ADMINPASSWORD=mongopw --name mongo-express mongo-express
+
+Para executar o Banco de Dados MONGODB em sua máquina, baixe o arquivo .zip da release, faça a extração em sua área de trabalho e siga as seguintes instruções:
+
+1 - Copie o caminho da pasta extraída
+2 - Abra o terminal e execute o comando: "docker run -v <colar o caminho>:/data/db mongo"
+3 - Abra outro terminal (sem fechar o anterior) e obtenha o ID do container com o comando: "docker container ls"
+4 - Execute o comando: "docker exec -it <ID obtido> bash"
+5 - Digite "mongosh" e pressione enter
+6 - A partir deste momento, o usuário estará no ambiente MONGODB, com o comando "show dbs" será possível observar as databases presentes.
+7 - Para entrar em uma database, utilize o comando "use <nome da database>"
+8 - Agora, o usuário poderá buscar por informações do DB com o comando find (no banco de dados feito, temos informações de: "Console", "Vendas", "DataDeLancamento" e " JogoMaisVendido".
